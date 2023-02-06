@@ -1,7 +1,12 @@
 <template>
-  <div class="">
-    <ProductComponent />
-  </div>
+  <v-app>
+    <div class="container mt-10">
+      <p class="text-center text-h4 text-decoration-underline mt-2">
+        E-Commerce Website
+      </p>
+      <ProductComponent />
+    </div>
+  </v-app>
 </template>
 
 <script>
@@ -14,4 +19,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.container {
+  width: 80%;
+  /* border: 2px solid red; */
+  margin: auto;
+}
+</style>
